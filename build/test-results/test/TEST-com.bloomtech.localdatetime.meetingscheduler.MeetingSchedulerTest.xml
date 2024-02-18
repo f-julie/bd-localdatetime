@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.bloomtech.localdatetime.meetingscheduler.MeetingSchedulerTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-09-22T18:18:43" hostname="Lambda-School-Jamies-MacBook-Pro.local" time="0.047">
+  <properties/>
+  <testcase name="checkAvailabilityWithAvailableEmployeeInSeparateTimeZone()" classname="com.bloomtech.localdatetime.meetingscheduler.MeetingSchedulerTest" time="0.045"/>
+  <testcase name="checkAvailabilityWhereAnEmployeeIsUnavailableDueToTimeZoneDifference()" classname="com.bloomtech.localdatetime.meetingscheduler.MeetingSchedulerTest" time="0.001"/>
+  <system-out><![CDATA[
+Meeting starts at 07:00 Pacific Standard Time
+[Invite{employee=Employee{name='Uma', timeZone=Eastern Standard Time, startTime=09:00, endTime=17:00}, available=true}]
+
+Meeting starts at 14:00 Pacific Standard Time
+[Invite{employee=Employee{name='Uma', timeZone=Eastern Standard Time, startTime=09:00, endTime=17:00}, available=false}, Invite{employee=Employee{name='Erin', timeZone=Pacific Standard Time, startTime=09:00, endTime=17:00}, available=true}]
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

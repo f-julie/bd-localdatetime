@@ -1,0 +1,6 @@
+
+.Meeting starts at 07:00 Pacific Standard Time
+x[Invite{employee=Employee{name='Uma', timeZone=Eastern Standard Time, startTime=09:00, endTime=17:00}, available=true}]
+
+.Meeting starts at 14:00 Pacific Standard Time
+ñ[Invite{employee=Employee{name='Uma', timeZone=Eastern Standard Time, startTime=09:00, endTime=17:00}, available=false}, Invite{employee=Employee{name='Erin', timeZone=Pacific Standard Time, startTime=09:00, endTime=17:00}, available=true}]
